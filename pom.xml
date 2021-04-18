@@ -152,6 +152,14 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>${version.wildfly.maven.plugin}</version>
             </plugin>
+                <groupId>org.wildfly.swarm</groupId>
+                <artifactId>wildfly-swarm-plugin</artifactId>
+                <version>2008.3.3</version>
+                <configuration>
+                    <useUberJar>true</useUberJar>
+                </configuration>
+            <plugin>
+            </plugin>
         </plugins>
     </build>
 
